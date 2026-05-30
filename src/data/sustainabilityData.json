@@ -1,0 +1,152 @@
+{
+  "Plastic Bottle": {
+    "name": "Plastic Bottle",
+    "recyclable": true,
+    "ecoScore": 4,
+    "decompositionTime": "450 Years",
+    "binType": "Recycling Bin",
+    "alternative": "Reusable Steel Bottle",
+    "co2Impact": "82g per bottle",
+    "disposalSteps": [
+      "Empty all contents from the bottle",
+      "Rinse the bottle with water",
+      "Remove the cap and label if required locally",
+      "Place in the recycling bin"
+    ]
+  },
+  "Glass Bottle": {
+    "name": "Glass Bottle",
+    "recyclable": true,
+    "ecoScore": 6,
+    "decompositionTime": "1 Million Years",
+    "binType": "Glass Recycling Bin",
+    "alternative": "Reusable Glass Bottle",
+    "co2Impact": "670g per bottle",
+    "disposalSteps": [
+      "Empty and rinse the bottle",
+      "Remove metal caps separately",
+      "Sort by color if required in your area",
+      "Place in glass recycling bin"
+    ]
+  },
+  "Aluminum Can": {
+    "name": "Aluminum Can",
+    "recyclable": true,
+    "ecoScore": 7,
+    "decompositionTime": "200-500 Years",
+    "binType": "Recycling Bin",
+    "alternative": "Reusable Tumbler",
+    "co2Impact": "170g per can",
+    "disposalSteps": [
+      "Empty the can completely",
+      "Rinse if heavily soiled",
+      "Crush cans to save space if desired",
+      "Place in metal recycling bin"
+    ]
+  },
+  "Paper": {
+    "name": "Paper",
+    "recyclable": true,
+    "ecoScore": 7,
+    "decompositionTime": "2-6 Weeks",
+    "binType": "Paper Recycling Bin",
+    "alternative": "Digital Documents",
+    "co2Impact": "5g per sheet",
+    "disposalSteps": [
+      "Keep paper dry and clean",
+      "Remove plastic coatings or staples if possible",
+      "Separate from cardboard if required locally",
+      "Place in paper recycling bin"
+    ]
+  },
+  "Cardboard": {
+    "name": "Cardboard",
+    "recyclable": true,
+    "ecoScore": 7,
+    "decompositionTime": "2 Months",
+    "binType": "Recycling Bin",
+    "alternative": "Reusable Storage Boxes",
+    "co2Impact": "3kg per kg of cardboard",
+    "disposalSteps": [
+      "Flatten boxes to save space",
+      "Remove tape, plastic, and foam packaging",
+      "Keep cardboard dry",
+      "Place in recycling bin"
+    ]
+  },
+  "Food Waste": {
+    "name": "Food Waste",
+    "recyclable": false,
+    "ecoScore": 3,
+    "decompositionTime": "1-6 Months",
+    "binType": "Compost Bin",
+    "alternative": "Meal Planning to Reduce Waste",
+    "co2Impact": "3.3kg CO₂e per kg wasted",
+    "disposalSteps": [
+      "Separate food scraps from packaging",
+      "Use a compost bin or municipal organics program",
+      "Avoid mixing with plastic or glass",
+      "Consider home composting for garden use"
+    ]
+  },
+  "Battery": {
+    "name": "Battery",
+    "recyclable": true,
+    "ecoScore": 2,
+    "decompositionTime": "100 Years",
+    "binType": "Battery Collection Point",
+    "alternative": "Rechargeable Battery",
+    "co2Impact": "High — contains toxic metals",
+    "disposalSteps": [
+      "Never throw batteries in regular trash",
+      "Tape terminals on lithium batteries",
+      "Take to a designated battery drop-off point",
+      "Use rechargeable batteries when possible"
+    ]
+  },
+  "Electronic Waste": {
+    "name": "Electronic Waste",
+    "recyclable": true,
+    "ecoScore": 2,
+    "decompositionTime": "Does Not Decompose",
+    "binType": "E-Waste Collection Center",
+    "alternative": "Repair or Donate Devices",
+    "co2Impact": "Very High — rare earth metals",
+    "disposalSteps": [
+      "Back up and wipe personal data",
+      "Do not place in regular recycling",
+      "Take to certified e-waste recycler",
+      "Donate working devices when possible"
+    ]
+  },
+  "Plastic Bag": {
+    "name": "Plastic Bag",
+    "recyclable": false,
+    "ecoScore": 2,
+    "decompositionTime": "500+ Years",
+    "binType": "Specialty Plastic Film Collection",
+    "alternative": "Cloth Bag",
+    "co2Impact": "6g per bag",
+    "disposalSteps": [
+      "Reuse bags when possible",
+      "Do not place in curbside recycling (jams machines)",
+      "Return to store drop-off bins if available",
+      "Switch to reusable cloth bags"
+    ]
+  },
+  "Cloth Bag": {
+    "name": "Cloth Bag",
+    "recyclable": true,
+    "ecoScore": 9,
+    "decompositionTime": "1-5 Years (natural fibers)",
+    "binType": "Textile Recycling",
+    "alternative": "Keep Reusing Your Cloth Bag",
+    "co2Impact": "Low after 10+ uses",
+    "disposalSteps": [
+      "Wash and reuse as long as possible",
+      "Repair minor tears instead of discarding",
+      "Donate usable bags to charity",
+      "Recycle via textile collection programs when worn out"
+    ]
+  }
+}
